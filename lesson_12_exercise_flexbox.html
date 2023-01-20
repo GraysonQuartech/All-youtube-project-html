@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box Exercise</title>
+    <style>
+      .main-menu {
+        background-color: rgb(252, 255, 255);
+        box-shadow: 10px 10px 10px rgb(102, 102, 102);
+        display: flex;
+        flex-direction: column;
+        border-radius: 1%;
+        padding: 10px;
+        max-width: 200px;
+        max-height: 120px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(170, 168, 168);
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .notif {
+        background-color: rgb(60, 112, 255);
+        color: antiquewhite;
+        border-radius: 30%;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        margin: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-menu">
+      <div class="row">
+        <p class="text">Home</p>
+        <p class="notif">14</p>
+      </div>
+      <div class="row">
+        <p class="text">Notifications</p>
+        <p class="notif">12</p>
+      </div>
+      <div class="row">
+        <p class="text">Messages</p>
+        <p class="notif">2</p>
+      </div>
+    </div>
+  </body>
+</html>
